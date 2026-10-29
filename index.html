@@ -1,4 +1,86 @@
-<h1>meu blog tech</h1>
-</p>vou compartilha conhecimentos sobre tecnologia e progamação</p>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Turma do 1 Ano</title>
+<style>
+header{
+background-color: rgb(56, 56, 56);
+color:rgb(119, 182, 238);
+text-align: center;
+max-width: 800px;
+margin:0 auto;
+padding:20px;
+}
+main{ background-color: #FFFFFFF;
+color: #183c63;
+max: width 800px;
+margin:0 auto;
+padding: 16px;
+}
+article{
+ display: flex;
+}
+img{
+ width: 80px;
+ height: 80px;
+}
+.artigo-autor{
+ font-weight: bold;
+}
+.artigo-autor{
+ font-weight: bold;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>𝗠𝗲𝘂 𝗯𝗹𝗼𝗴 𝘀𝗼𝗯𝗿𝗲 𝗘𝗱𝘂𝗰𝗮𝗰̧𝗮̃𝗼 𝗳𝗶𝘀𝗶𝗰𝗮 </h1>
+<p>Vou compartilhar minhas informações sobre a Educação fisica</p>
+</header>
+<main>
+<article>
+<img src="https://wordpress-cms-revista-prod-assets.quero.space/uploads/2024/10/138077-1-1-1024x668.jpg" alt="primiro">
+<div>
+  <h2>🅴🆇🅴🆁🅲🅸🅲🅸🅾🆂</h2>
+  <p class="Criador da educação fisica">Por Logan</p>
+  <p>Isso te ajuda a melhorar seu físico e sua saúde</p>
 
-h
+
+  <button>💯​<span>0</span></button>
+   <button>🫁<span>0</span></button>
+</div>
+</article> <article>
+<img src="" alt="segundo">
+<div>
+  <h2>Exercicios</h2>
+  <p class="Criador da educação fisica">Por Logan</p>
+  <p>Isso te ajuda a melhorar seu físico e sua saúde</p>
+
+
+  <button>💯​<span>0</span></button>
+   <button>🫁<span>0</span></button>
+</div>
+</article>
+</main>
+</body>
+<script>
+  const botoes =document.querySelectorALL("button");
+  botoes.forEach(function (botao){
+  let curtiu = false;
+  botao.addEventListener("click", botaoClicado);
+  function botaoClicado(){
+   console.log("fui clicado");
+  let texto =botao.querySelector("span");
+   if(curtiu=== false){
+       texto.textContent++;
+       curtiu= true;
+   } else{
+       texto.textContent--;
+       curtiu= false;
+   }
+}
+  })
+</script>
+</html>
